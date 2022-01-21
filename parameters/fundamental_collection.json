@@ -1,0 +1,5 @@
+{
+    "any": ".+?",
+    "spaces": " +",
+    "letters": "[a-zA-Z]+"
+}

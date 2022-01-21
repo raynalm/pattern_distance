@@ -1,0 +1,59 @@
+{
+    "Apache": {
+        "apache1": "(\\d+\\.){3}\\d+"
+    },
+    "HDFS": {
+        "hdfs1": "blk_-?\\d+",
+        "hdfs2": "(\\d+\\.){3}\\d+(:\\d+)?"
+    },
+    "Spark": {
+        "spark1": "(\\d+\\.){3}\\d+",
+        "spark2": "\b[KGTM]?B\b",
+        "spark3": "([\\w-]+\\.){2,}[\\w-]+"
+    },
+    "Zookeeper": {
+        "zookeeper1": "/(\\d+\\.){3}\\d+(:\\d+)?"
+    },
+    "Thunderbird": {
+        "thunderbird1": "(\\d+\\.){3}\\d+"
+    },
+    "BGL": {
+        "bgl1": "core\\.\\d+"
+    },
+    "Proxifier": {
+        "proxifier1": "<\\d+\\ssec",
+        "proxifier2": "([\\w-]+\\.)+[\\w-]+(:\\d+)?",
+        "proxifier3": "\\d{2}:\\d{2}(:\\d{2})*",
+        "proxifier4": "[KGTM]B"
+    },
+    "HealthApp": {},
+    "Andriod": {
+        "android1": "[-a-zA-Z0-9_]",
+        "android2": "([-a-zA-Z0-9_]+/){2,}[-a-zA-Z0-9_]+",
+        "android3": "([-+]?[0-9]+)\b|\b0[Xx][a-fA-F0-9]+\b|\b[a-fA-F0-9]{4,}"
+    },
+    "Windows": {
+        "windows1": "0x[0-9a-fA-F]+[\t\r\n\u000b\f]"
+    },
+    "HPC": {
+        "hpc1": "=\\d+"
+    },
+    "Hadoop": {
+        "hadoop1": "(\\d+\\.){3}\\d+"
+    },
+    "OpenSSH": {
+        "openssh1": "(\\d+\\.){3}\\d+",
+        "openssh2": "([\\w-]+\\.){2,}[\\w-]+"
+    },
+    "Linux": {
+        "linux1": "(\\d+\\.){3}\\d+",
+        "linux2": "\\d{2}:\\d{2}:\\d{2}"
+    },
+    "Mac": {
+        "mac1": "([\\w-]+\\.){2,}[\\w-]+"
+    },
+    "OpenStack": {
+        "openstack1": "((\\d+\\.){3}\\d+,?)+",
+        "openstack2": "0x[0-9a-fA-F]+[\t\r\n\u000b\f]"
+    }
+}
